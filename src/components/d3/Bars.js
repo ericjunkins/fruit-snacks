@@ -640,6 +640,8 @@ export default function Bars(config = {}) {
                         .attr('height', d=> y(0) - y(d.percentage))
                         .attr('y', d=>  y(d.percentage))
                         .attr('width', x.bandwidth())
+                        .attr('stroke', '#000')
+                        .attr('stroke-width', 2)
                         .attr('x', d=> x(d.flavor))
     
                     bars.enter()
@@ -650,6 +652,8 @@ export default function Bars(config = {}) {
                         .attr('height', d=> 0)
                         .attr('width', x.bandwidth())
                         .attr('fill', (d, i) => colors[i])
+                        .attr('stroke', '#000')
+                        .attr('stroke-width', 2)
                         .transition().duration(1000)
                         .attr('height', d=> y(0) - y(d.percentage))
                         .attr('y', d=>  y(d.percentage))

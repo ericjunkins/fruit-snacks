@@ -940,7 +940,7 @@ export default function Bars(config = {}) {
 
                 a = d3.scaleLinear()
                     .domain([0, Math.sqrt(d3.max(display, d=> d.value))])
-                    .range([0,180])
+                    .range([0,width/10])
 
                 
                 var node = barChart.selectAll('.node')
@@ -985,7 +985,7 @@ export default function Bars(config = {}) {
                         .attr('y', height/2)
                         .attr('fill', '#fff')
                         .text(d=> d.key)
-                        .attr('font-size', 26)
+                        .attr('font-size', 22)
                         .attr('font-weight', 700)
                         .attr('opacity', 0)
                         .attr('dominant-baseline', 'middle')
@@ -1074,7 +1074,7 @@ export default function Bars(config = {}) {
                         .join('text')
                         .attr('fill', '#fff')
                         .text(d=> d.key)
-                        .attr('font-size', 26)
+                        .attr('font-size', 22)
                         .attr('class', 'node-text')
                         .attr('font-weight', 700)
                         .attr('dominant-baseline', 'middle')

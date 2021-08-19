@@ -541,6 +541,7 @@ export default function Bars(config = {}) {
                         .padding(0.1)
 
                     
+                    makeLabels("Total Gummies", "Flavor")
                     updateScales()
                     drawTotal(barsData)
                 } else {
@@ -562,6 +563,7 @@ export default function Bars(config = {}) {
 
                     r.range([0, (height/countMax)/2])
 
+                    makeLabels("Instances of Count", "Number in Pack")
                     updateScales();
 
 
@@ -621,6 +623,7 @@ export default function Bars(config = {}) {
 
                     
                     updateScales()
+                    makeLabels("Total Gummies", "Flavor")
                     drawTotal(barsData)
                 }
             }
@@ -674,6 +677,7 @@ export default function Bars(config = {}) {
                     })  
                     let yMax = d3.max(statistics, d=> d.max)
                     y.domain([0, yMax])
+                    makeLabels("Percent of Pack", "Flavor")
                     updateScales();
                     totalToAvg(barsData);
                 }
@@ -785,10 +789,12 @@ export default function Bars(config = {}) {
                     updateScales();
                     colorScale.range(["#eb9be2 ", "#e85248", "#f7ad5e", "#ebb7a9", "#f7639b"])
                     drawWhiskers(statistics)
+                    makeLabels("Percent of Pack", "Flavor")
                     drawStatsBubbles(statsBubbles)
 
                 } else {
                     colorScale.range(colors)
+                    makeLabels("Percent of Pack", "Flavor")
                     drawStatsBubbles([])
                 }
             }
@@ -826,6 +832,7 @@ export default function Bars(config = {}) {
                         .padding(0.1)
                     y.domain([0, 1])
                     updateScales();
+                    makeLabels("Percent of Pack", "Batch Number")
                     drawStackedArea(stackedData)
                 } else {
                     drawStackedArea([])
@@ -835,6 +842,7 @@ export default function Bars(config = {}) {
                     updateScales();
                     colorScale.range(["#eb9be2 ", "#e85248", "#f7ad5e", "#ebb7a9", "#f7639b"])
                     drawWhiskers(statistics)
+                    makeLabels("Percent of Pack", "Flavor")
                     drawStatsBubbles(statsBubbles)
                 }
             }
@@ -919,6 +927,7 @@ export default function Bars(config = {}) {
                         .padding(0.1)
                     y.domain([0, 1])
                     updateScales();
+                    makeLabels("Percent of Pack", "Flavor")
                     drawStackedArea(stackedData)
                 }
             }

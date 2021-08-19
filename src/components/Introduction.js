@@ -6,11 +6,8 @@ import {Grape, Strawberry, Orange, Peach, Raspberry} from "./../assets/FruitIcon
 const Introduction = (props) => {
 
     return (
-        <Center w="100%">
+        <Center w="100%" >
             <Box w="80%" mt="100px" px={10} py={5} bg="#fff" display="inline-block" borderRadius="20px" border="1px solid" borderColor="#000"  boxShadow="5px 10px 10px #000">
-                <Text fontSize="18px" fontWeight={400} pl="5px">
-                    Annecdotal observation:
-                </Text>
                 <Text color="grape" fontWeight={700} fontSize="52px" display="inline-block" lineHeight="52px">
                     Grape 
                 </Text>

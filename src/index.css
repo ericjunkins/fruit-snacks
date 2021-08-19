@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f1f1f1 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.progress-bubbles{
+  fill: #f1f1f1;
+}
+
+
+.primary {
+  fill: #35b9d4;
+  color: #35b9d4;
+}
+
+#bg-rect {
+  fill: #f1f1f1;
+}
+
+#fg-rect {
+  fill: #35b9d4;
+}
+
+#progress-text {
+  fill: #f1f1f1;
+}
+
+.MathJax {
+  font-size: 34px !important;
+  color: #000 !important;
+}
+

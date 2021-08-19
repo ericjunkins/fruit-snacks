@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+/* .grid line {
+  stroke: #ababab;
+  stroke-width: 1px;
+} */
+
+/* .grid path {
+  stroke: #ababab;
+  stroke-width: 1px;
+} */
+
+.axis line {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.axis path {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.axis text {
+  fill: #000;
+  font-size: 24px;
+}
+
+.axis--y line {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.axis--y path {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.axis--y text {
+  fill: #000;
+  font-size: 24px;
+}
+
+.label {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.node {
+  fill-opacity: .99;
+}
+

@@ -253,7 +253,7 @@ const Main = (props) => {
             </Box>
             <Center w="100%" mt="30px">
                 <Box w="100%" px="150px">
-                    <Box w="60%" h="70%" m="auto" position="fixed" top="250px" left="200px">
+                    <Box w="60%" h="calc(100% - 350px)" m="auto" position="fixed" top="250px" left="200px">
                         {data ? <D3Container ref={vizRef} id="counts-bars" viz={Bars} data={data} stage={currentStepIndex} /> : null}
                     </Box>
                     <Scrollama 

@@ -246,7 +246,7 @@ const Main = (props) => {
                         and <Link href="https://www.d3-graph-gallery.com/" color="#42e3f5"> D3 </Link> as the visulization library
                     </Text>
                     <Text color="#fff"> 
-                        Hosted on using Github.io. <Link href="https://reactjs.org/" color="#42e3f5"> Source Code </Link>
+                        Hosted on using Github.io. <Link href="https://github.com/ericjunkins/fruit-snacks" color="#42e3f5"> Source Code </Link>
                     </Text>
                     </VStack>
                 </Center>

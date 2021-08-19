@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fruit-snacks/static/css/main.5f8cef0d.chunk.css",
+    "main.js": "/fruit-snacks/static/js/main.9c042ea2.chunk.js",
+    "main.js.map": "/fruit-snacks/static/js/main.9c042ea2.chunk.js.map",
+    "runtime-main.js": "/fruit-snacks/static/js/runtime-main.791eb277.js",
+    "runtime-main.js.map": "/fruit-snacks/static/js/runtime-main.791eb277.js.map",
+    "static/js/2.ca6ba7f0.chunk.js": "/fruit-snacks/static/js/2.ca6ba7f0.chunk.js",
+    "static/js/2.ca6ba7f0.chunk.js.map": "/fruit-snacks/static/js/2.ca6ba7f0.chunk.js.map",
+    "static/js/3.128f2978.chunk.js": "/fruit-snacks/static/js/3.128f2978.chunk.js",
+    "static/js/3.128f2978.chunk.js.map": "/fruit-snacks/static/js/3.128f2978.chunk.js.map",
+    "index.html": "/fruit-snacks/index.html",
+    "static/css/main.5f8cef0d.chunk.css.map": "/fruit-snacks/static/css/main.5f8cef0d.chunk.css.map",
+    "static/js/2.ca6ba7f0.chunk.js.LICENSE.txt": "/fruit-snacks/static/js/2.ca6ba7f0.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/fruit-snacks/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.791eb277.js",
+    "static/js/2.ca6ba7f0.chunk.js",
+    "static/css/main.5f8cef0d.chunk.css",
+    "static/js/main.9c042ea2.chunk.js"
+  ]
+}
